@@ -2,3 +2,4 @@ first deploy fail
 re added ssh key
 failed again
 and again
+add some notes
