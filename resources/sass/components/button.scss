@@ -1,0 +1,12 @@
+.button {
+    @apply
+    rounded-lg
+    py-1
+    px-3
+    bg-blue-500
+    text-white;
+    &:hover {
+        @apply
+        bg-blue-600;
+    }
+}

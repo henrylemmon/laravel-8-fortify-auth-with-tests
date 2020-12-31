@@ -1,0 +1,17 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.idea
+.env
+.env.backup
+.phpunit.result.cache
+permissions.sh
+local_deploy.sh
+server_deploy.sh
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log

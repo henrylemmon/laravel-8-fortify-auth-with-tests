@@ -1,0 +1,29 @@
+.card {
+    @apply
+    bg-white
+    rounded-lg
+    shadow-lg
+    p-5;
+}
+
+.card-header {
+    @apply
+    border-l-4
+    border-blue-500
+    text-xl
+    py-4
+    pl-4
+    -ml-5
+    mb-3;
+}
+
+.card-footer {
+    @apply
+    flex
+    justify-between;
+}
+
+.card-header:hover {
+    @apply
+    text-blue-800;
+}

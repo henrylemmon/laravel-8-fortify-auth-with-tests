@@ -1,0 +1,119 @@
+.form-container {
+    @apply
+    bg-white
+    rounded-lg
+    shadow-lg
+    border
+    border-gray-300
+    p-5
+    md:w-2/3
+    lg:w-3/5
+    xl:w-2/3;
+}
+
+.form-heading {
+    @apply
+    text-3xl
+    font-semibold
+    text-gray-700
+    border-l-4
+    border-blue-500
+    pl-5
+    -ml-5
+    pb-4
+    mb-4
+    pt-2;
+}
+
+.form-element-group {
+    @apply
+    relative
+    flex
+    flex-col
+    mb-5;
+}
+
+.form-label {
+    @apply
+    mb-1;
+}
+
+.form-input {
+    @apply
+    border
+    border-gray-400
+    py-1
+    px-2
+    rounded
+    shadow;
+}
+
+.form-textarea {
+    @apply
+    border
+    border-gray-400
+    py-1
+    px-2
+    rounded
+    shadow;
+}
+
+.form-footer {
+    @apply
+    flex
+    justify-between
+    items-end
+    mt-10;
+}
+
+.error-text {
+    @apply
+    text-sm
+    text-red-500;
+}
+
+.error-input {
+    @apply
+    border-red-500;
+}
+
+/*file input styles*/
+
+.file {
+    @apply
+    opacity-0
+    w-01
+    h-01
+    absolute;
+}
+
+.file-input {
+    @apply
+    w-full
+    relative;
+}
+
+.file-label {
+    @apply
+    block
+    bg-gray-500
+    rounded-lg
+    py-2
+    px-4
+    leading-tight
+    text-gray-200
+    shadow-lg
+    w-125
+    h-38
+    flex
+    items-center
+    justify-center;
+}
+
+.file-name {
+    @apply
+    absolute
+    left-34
+    text-sm
+    text-red-500;
+}
