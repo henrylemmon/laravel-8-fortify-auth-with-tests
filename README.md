@@ -1,6 +1,6 @@
 <p align="center"><a href="https://devlemmon.com" target="_blank"><img src="https://devlemmon.com/media/running_plumber.png" style="margin-top:30px;height:125px;width:150px;"></a></p>
 
-# Laravel Starter Template
+# Laravel Learning Template
 
 This laravel 8 starter template has image processing.
 
