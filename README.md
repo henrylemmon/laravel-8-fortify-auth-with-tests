@@ -8,11 +8,9 @@ This laravel 8 starter template has image processing.
 - [GD Image Library php.net](https://www.php.net/manual/en/book.image.php).
 - [GD Image Library](https://libgd.github.io).
 
-Lorem ipsum again
-
 ## Learning Laravel
 
-More Lorem
+Mobile first menu
 
 ## Learning Laravel
 
