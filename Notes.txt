@@ -1,1 +1,2 @@
-added notes.
+first deploy fail
+re added ssh key
