@@ -6,23 +6,20 @@
         <div>
             <div class="form-container">
                 <div class="form-heading">
-                    Register
+                    Reset Password
                 </div>
+
                 <x-forms.form
-                    action="{{ route('register') }}"
+                    action="{{ route('password.update') }}"
                 >
-                    <x-forms.input
-                        label="Name"
-                        id="name"
-                        type="name"
-                        name="name"
-                    ></x-forms.input>
+                    <input type="hidden" name="token" value="{{ $request->route('token') }}">
 
                     <x-forms.input
                         label="Email"
                         id="email"
                         type="email"
                         name="email"
+                        value="{{ $request->email }}"
                     ></x-forms.input>
 
                     <x-forms.input
@@ -41,14 +38,14 @@
 
                     <x-forms.form-footer>
                         <x-forms.button
-                            buttontext="Register"
+                            buttontext="Update"
                         ></x-forms.button>
 
                         <a
-                            href="forgot-password"
+                            href="register"
                             class="text-blue-500 hover:text-blue-700 hover:underline"
                         >
-                            Forgot your password?
+                            Dont have an account?
                         </a>
 
                         <x-forms.cancel-button></x-forms.cancel-button>

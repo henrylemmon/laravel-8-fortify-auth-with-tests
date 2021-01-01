@@ -6,18 +6,16 @@
         <div>
             <div class="form-container">
                 <div class="form-heading">
-                    Register
+                    Reset Password
                 </div>
+                @if(session('status'))
+                    <span class="text-green-700 bg-green-50 py-2 px-3 rounded mb-4">
+                        {{ session('status') }}
+                    </span>
+                @endif
                 <x-forms.form
-                    action="{{ route('register') }}"
+                    action="{{ route('password.request') }}"
                 >
-                    <x-forms.input
-                        label="Name"
-                        id="name"
-                        type="name"
-                        name="name"
-                    ></x-forms.input>
-
                     <x-forms.input
                         label="Email"
                         id="email"
@@ -25,30 +23,16 @@
                         name="email"
                     ></x-forms.input>
 
-                    <x-forms.input
-                        label="Password"
-                        id="password"
-                        type="password"
-                        name="password"
-                    ></x-forms.input>
-
-                    <x-forms.input
-                        label="Retype Password"
-                        id="password_confirmation"
-                        type="password"
-                        name="password_confirmation"
-                    ></x-forms.input>
-
                     <x-forms.form-footer>
                         <x-forms.button
-                            buttontext="Register"
+                            buttontext="Submit Request"
                         ></x-forms.button>
 
                         <a
-                            href="forgot-password"
+                            href="register"
                             class="text-blue-500 hover:text-blue-700 hover:underline"
                         >
-                            Forgot your password?
+                            Dont have an account?
                         </a>
 
                         <x-forms.cancel-button></x-forms.cancel-button>
