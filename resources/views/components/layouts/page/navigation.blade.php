@@ -44,7 +44,7 @@
                                                 @click.away="open = false"
                                                 x-cloak
                                                 class="text-white text-sm hover:underline">
-                                                <span class="text-green-400">Welcome</span> {{ auth()->user()->name }}
+                                                {{ auth()->user()->name }}
                                             </div>
                                         </button>
                                     </div>
@@ -184,7 +184,7 @@
                         @auth
                             <div class="flex-shrink-0 w-full">
                                 <div class="text-white text-lg px-3 py-2">
-                                    <span class="text-green-400">Hello</span> {{ auth()->user()->name }}
+                                    {{ auth()->user()->name }}
                                 </div>
                                 {{--begin mobile logout link--}}
                                 <a

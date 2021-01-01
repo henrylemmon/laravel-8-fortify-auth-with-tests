@@ -30,9 +30,11 @@
                         name="image"
                     ></x-forms.file-input>
 
-                    <x-forms.button
-                        buttontext="Submit"
-                    ></x-forms.button>
+                    <x-forms.form-footer>
+                        <x-forms.button
+                            buttontext="Submit"
+                        ></x-forms.button>
+                    </x-forms.form-footer>
                 </x-forms.form>
             </div>
         </div>

@@ -10,3 +10,8 @@
         bg-blue-600;
     }
 }
+
+.button-cancel {
+    @apply
+    button;
+}

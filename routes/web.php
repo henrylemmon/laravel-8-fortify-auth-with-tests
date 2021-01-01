@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/photos', function () {
-    return view('photos.create');
+Route::get('/home', function () {
+    return view('welcome');
+    /*dd(\Illuminate\Support\Facades\Auth::user());*/
 });

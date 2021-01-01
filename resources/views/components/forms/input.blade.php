@@ -2,11 +2,12 @@
     'label' => '',
     'id' => '',
     'type' => '',
+    'name' => '',
 ])
 
 <div class="form-element-group">
     <label class="form-label" for="{{ $id }}">{{ $label }}</label>
-    <input value="{{ old($id) }}" class="form-input @error($id) error-input @enderror" type="{{ $type }}" id="{{ $id }}" name="{{ $id }}">
+    <input value="{{ old($name) }}" class="form-input @error($name) error-input @enderror" type="{{ $type }}" id="{{ $id }}" name="{{ $name }}">
     @error($id)
         <span class="error-text">{{ $message }}</span>
     @enderror
