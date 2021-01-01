@@ -14,13 +14,13 @@
                 >
                     <input type="hidden" name="token" value="{{ $request->route('token') }}">
 
-                    <x-forms.input
-                        label="Email"
-                        id="email"
-                        type="email"
-                        name="email"
-                        value="{{ $request->email }}"
-                    ></x-forms.input>
+                    <div class="form-element-group">
+                        <label class="form-label" for="email">Email</label>
+                        <input value="{{ $request->email }}" class="form-input @error('email') error-input @enderror" type="email" id="email" name="email">
+                        @error('email')
+                            <span class="error-text">{{ $message }}</span>
+                        @enderror
+                    </div>
 
                     <x-forms.input
                         label="Password"
