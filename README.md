@@ -1,30 +1,20 @@
-<p align="center"><a href="https://devlemmon.com" target="_blank"><img src="https://devlemmon.com/media/running_plumber.png" style="margin-top:30px;height:125px;width:150px;"></a></p>
+<p align="center"><a href="https://devlemmon.com" target="_blank"><img src="https://devlemmon.com/media/running_plumber.png" style="margin-top:20px;height:100px;width:125px;"></a></p>
 
-# Laravel Learning Template
+# Laravel 8 auth
 
-This laravel 8 starter template has image processing.
+This laravel 8 starter project uses:
 
-- [Intervention Image](http://image.intervention.io).
-- [GD Image Library php.net](https://www.php.net/manual/en/book.image.php).
-- [GD Image Library](https://libgd.github.io).
+- [Fortify](https://github.com/laravel/fortify).
+- [AlpineJS](https://github.com/alpinejs/alpine).
+- [Tailwindcss](https://tailwindcss.com/).
+- Sass to compile assets.
 
-## Learning Laravel
+## Auth
 
-Mobile first menu
-
-## Learning Laravel
-
-A bit more Lorem
-
-### Learning Laravel
-
-- **[gootle.com](https://google.com)**
+[Laravel Fortify - Create your own laravel 8 login system](https://www.youtube.com/watch?v=KVE1BofYBF0&list=PLxFwlLOncxFIbxi2gQCN3SR5e3-WB-4T2)
+Penguin Digital youtube channel
 
 ## Learning Laravel
 
-Thank you for Lorem
-
-## Learning Laravel
-
-Here we have [gootle.com](https://google.com)
+Learn [Laravel](https://laravel.com/) or just brush up your skills on [laracasts](https://google.com)
 
