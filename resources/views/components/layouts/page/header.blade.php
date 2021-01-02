@@ -1,5 +1,5 @@
 @props([
-'mt' => 'mt-16',
+'mt' => 'mt-20',
 ])
 
 <header class="bg-white">

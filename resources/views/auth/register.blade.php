@@ -1,6 +1,8 @@
 <x-layouts.app>
 
-    <x-layouts.page.header></x-layouts.page.header>
+    <x-layouts.page.header
+        mt="mt-6"
+    ></x-layouts.page.header>
 
     <x-layouts.page.main>
         <div>
