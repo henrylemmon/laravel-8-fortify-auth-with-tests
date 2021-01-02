@@ -11,10 +11,18 @@ This laravel 8 starter project uses:
 
 ## Auth
 
+- Login
+- Register
+- Email verification
+- Reset password
+
+Created using fortify, following:
+
 [Laravel Fortify - Create your own laravel 8 login system](https://www.youtube.com/watch?v=KVE1BofYBF0&list=PLxFwlLOncxFIbxi2gQCN3SR5e3-WB-4T2)
+
 Penguin Digital youtube channel
 
 ## Learning Laravel
 
-Learn [Laravel](https://laravel.com/) or just brush up your skills on [laracasts](https://google.com)
+Learn [Laravel](https://laravel.com/) on [laracasts](https://google.com)
 

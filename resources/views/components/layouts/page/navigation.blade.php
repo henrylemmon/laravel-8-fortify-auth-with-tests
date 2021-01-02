@@ -11,7 +11,6 @@
                         <div class="{{--ml-10--}} flex items-baseline space-x-4">
                             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                             <a href="/" class="text-white px-3 py-2 rounded-md text-sm font-medium">Welcome</a>
-                            <a href="/photos" class="text-white px-3 py-2 rounded-md text-sm font-medium">Photos</a>
                             @auth
                                 <a href="/home" class="text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
                             @endauth
@@ -167,9 +166,6 @@
                 <a
                         href="/" class="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
                 >Welcome</a>
-                <a
-                    href="/photos" class="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
-                >Photos</a>
                 @auth
                     <a
                         href="/home" class="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"

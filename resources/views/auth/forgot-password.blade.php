@@ -10,11 +10,9 @@
                 <div class="form-heading">
                     Reset Password
                 </div>
-                @if(session('status'))
-                    <span class="text-green-700 bg-green-50 py-2 px-3 rounded mb-4">
-                        {{ session('status') }}
-                    </span>
-                @endif
+
+                <x-flashes.session-status></x-flashes.session-status>
+
                 <x-forms.form
                     action="{{ route('password.request') }}"
                 >
