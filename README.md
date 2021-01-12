@@ -22,7 +22,11 @@ Created using fortify, following:
 
 Penguin Digital youtube channel
 
+## Tailwind ui
+
+Navigation came from [Tailwind UI](https://tailwindui.com/preview)
+
 ## Learning Laravel
 
-Learn [Laravel](https://laravel.com/) on [laracasts](https://google.com)
+Form styles came from [laracasts Build A Laravel App With TDD](https://laracasts.com/series/build-a-laravel-app-with-tdd)
 
