@@ -1,6 +1,4 @@
-<p align="center"><a href="https://devlemmon.com" target="_blank"><img src="https://devlemmon.com/media/running_plumber.png" style="margin-top:20px;height:100px;width:125px;"></a></p>
-
-# Laravel 8 auth
+# Laravel 8 Fortify Auth
 
 This laravel 8 starter project uses:
 
@@ -8,6 +6,7 @@ This laravel 8 starter project uses:
 - [AlpineJS](https://github.com/alpinejs/alpine).
 - [Tailwindcss](https://tailwindcss.com/).
 - Sass to compile assets.
+- Test from Laravel/Breeze (modified)
 
 ## Auth
 
@@ -15,6 +14,7 @@ This laravel 8 starter project uses:
 - Register
 - Email verification
 - Reset password
+- Password Confirmation
 
 Created using fortify, following:
 
