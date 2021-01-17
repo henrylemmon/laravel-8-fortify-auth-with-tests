@@ -6,7 +6,7 @@ This laravel 8 starter project uses:
 - [AlpineJS](https://github.com/alpinejs/alpine).
 - [Tailwindcss](https://tailwindcss.com/).
 - Sass to compile assets.
-- Test from Laravel/Breeze (modified)
+- Tests from Laravel/Breeze (modified)
 
 ## Auth
 
