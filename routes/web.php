@@ -14,7 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-
     return view('welcome');
 });
 
@@ -22,3 +21,7 @@ Route::get('/home', function () {
     return view('home');
     /*dd(\Illuminate\Support\Facades\Auth::user());*/
 })->middleware(['auth', 'verified']);
+
+Route::get('/test-password-verify', function () {
+    return view('test-password-verify');
+})->middleware(['auth', 'verified', 'password.confirm']);

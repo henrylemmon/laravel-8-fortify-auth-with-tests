@@ -13,6 +13,8 @@
                             <a href="/" class="text-white px-3 py-2 rounded-md text-sm font-medium">Welcome</a>
                             @auth
                                 <a href="/home" class="text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                                <a href="/test-password-verify"
+                                   class="text-white px-3 py-2 rounded-md text-sm font-medium">Test Password Verify</a>
                             @endauth
                         </div>
                     </div>
@@ -170,6 +172,9 @@
                     <a
                         href="/home" class="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
                     >Home</a>
+                    <a
+                        href="/test-password-verify" class="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
+                    >Test Password Verify</a>
                 @endauth
             </div>
 
