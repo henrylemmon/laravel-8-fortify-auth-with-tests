@@ -22,6 +22,10 @@ Created using fortify, following:
 
 Penguin Digital youtube channel
 
+## Tests
+
+Tests were copied from [Laravel/Breeze](https://github.com/laravel/breeze) and modified to work
+
 ## Tailwind ui
 
 Navigation came from [Tailwind UI](https://tailwindui.com/preview)
