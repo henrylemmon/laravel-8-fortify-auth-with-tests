@@ -1,6 +1,8 @@
 # Laravel 8 Fortify Auth
 
-Learning Project!!
+```diff
+- Learning Project
+```
 
 This laravel 8 starter project uses:
 
